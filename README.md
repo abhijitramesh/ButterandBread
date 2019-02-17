@@ -39,3 +39,5 @@ git clone https://github.com/username/ButterandBread.git
 
 - Android Studio (version: 3.2.1)
 - Ubuntu 18.O4
+## Built With
+Apache Lisence Version 2.0 [Docs](https://github.com/abhijitramesh/ButterandBread/blob/master/LISENCE.md)
