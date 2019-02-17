@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:backgroundTint="#0000ff"
+                android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="EMAIL"
+                android:inputType="textPersonName"
+                android:padding="20dp" />
+
+
+            <EditText
+                android:id="@+id/Password"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/Email"
+                android:backgroundTint="#0000ff"
+                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="PASSWORD"
+                android:inputType="textPersonName"
+                android:padding="20dp" />
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="101dp"
+            android:background="@drawable/buttonstyle"
+            android:text="Login"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>
